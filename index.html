@@ -1,44 +1,27 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Visionneuse PDF - MAILIX.IO</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAILIX.IO</title>
 
-  <style>
-    html, body {
-      margin: 0;
-      padding: 0;
-      height: 100%;
-      background: #111;
-      font-family: Arial, sans-serif;
-    }
+    <style>
+        html, body {
+            margin: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
 
-    header {
-      height: 50px;
-      background: #000;
-      color: white;
-      display: flex;
-      align-items: center;
-      padding: 0 20px;
-      font-size: 18px;
-      font-weight: bold;
-    }
-
-    iframe {
-      width: 100%;
-      height: calc(100vh - 50px);
-      border: none;
-      background: white;
-    }
-  </style>
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+            display: block;
+        }
+    </style>
 </head>
-
 <body>
-  <header>
-    📄 MAILIX.IO - PDF Viewer
-  </header>
-
-  <iframe src="MAILIX.IO.pdf"></iframe>
+    <iframe src="MAILIX.IO.pdf"></iframe>
 </body>
 </html>
